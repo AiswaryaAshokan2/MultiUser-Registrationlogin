@@ -70,6 +70,7 @@
     <Content Include="AdminReg.aspx" />
     <Content Include="Login.aspx" />
     <Content Include="Loginpage.aspx" />
+    <Content Include="Test1.aspx" />
     <Content Include="UserRegistration.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -97,6 +98,13 @@
       <DependentUpon>Loginpage.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Test1.aspx.cs">
+      <DependentUpon>Test1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Test1.aspx.designer.cs">
+      <DependentUpon>Test1.aspx</DependentUpon>
+    </Compile>
     <Compile Include="UserRegistration.aspx.cs">
       <DependentUpon>UserRegistration.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
